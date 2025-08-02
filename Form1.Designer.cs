@@ -136,7 +136,7 @@
       this.btnGenerate.TabIndex = 1;
       this.btnGenerate.Text = "Generate";
       this.btnGenerate.UseVisualStyleBackColor = true;
-      this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
+      this.btnGenerate.Click += new System.EventHandler(this._BtnGenerate_Click);
       // 
       // lblWidth
       // 
@@ -214,23 +214,23 @@
 
     }
 
-        #endregion
+    #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.PictureBox pbNoise;
-        private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.TextBox tbScale;
-        private System.Windows.Forms.Label lblScale;
-        private System.Windows.Forms.Label lblWidth;
-        private System.Windows.Forms.Label lblHeight;
-        private System.Windows.Forms.Label lblOctaves;
-        private System.Windows.Forms.TextBox tbWidth;
-        private System.Windows.Forms.TextBox tbOctaves;
-        private System.Windows.Forms.TextBox tbHeight;
-        private System.Windows.Forms.Label lblPersistance;
-        private System.Windows.Forms.Label lblLacunarity;
-        private System.Windows.Forms.TextBox tbPersistance;
-        private System.Windows.Forms.TextBox tbLacunarity;
-    }
+    private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+    private System.Windows.Forms.PictureBox pbNoise;
+    private System.Windows.Forms.Button btnGenerate;
+    private System.Windows.Forms.TextBox tbScale;
+    private System.Windows.Forms.Label lblScale;
+    private System.Windows.Forms.Label lblWidth;
+    private System.Windows.Forms.Label lblHeight;
+    private System.Windows.Forms.Label lblOctaves;
+    private System.Windows.Forms.TextBox tbWidth;
+    private System.Windows.Forms.TextBox tbOctaves;
+    private System.Windows.Forms.TextBox tbHeight;
+    private System.Windows.Forms.Label lblPersistance;
+    private System.Windows.Forms.Label lblLacunarity;
+    private System.Windows.Forms.TextBox tbPersistance;
+    private System.Windows.Forms.TextBox tbLacunarity;
+  }
 }
 
